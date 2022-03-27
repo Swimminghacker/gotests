@@ -162,7 +162,7 @@ type Path string
 
 func (p Path) TestPath() string {
 	if !p.IsTestPath() {
-		return strings.TrimSuffix(string(p), ".go") + "_test.go"
+		return strings.TrimSuffix(string(p), ".go") + "_fuzz_test.go"
 	}
 	return string(p)
 }
