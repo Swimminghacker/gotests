@@ -67,3 +67,8 @@ Contributing guidelines are in [CONTRIBUTING.md](CONTRIBUTING.md).
 ## License
 
 `gotests` is released under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0).
+
+生产esc的命令
+gzip fuzz.tmpl -c | base64
+
+
