@@ -34,6 +34,10 @@ func receiverName(f *models.Receiver) string {
 		// Avoid conflict with test argument.
 		// "tr" is short for t receiver.
 		n = "tr"
+	} else if n == "f" {
+		n = "fr"
+	} else if n == "_" {
+		n = "_x"
 	}
 	return n
 }
